@@ -1,0 +1,63 @@
+body {
+    background-image: url("../images/oilpaint.jpg");
+    background-size: cover;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.76);
+    width: 65%;
+    height: 475px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    margin-top: 50px;
+}
+.titlepage {
+    margin-top: 50px;
+}
+.titlepage h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+}
+.titlepage h4 {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Cinzel', serif;
+}
+.titlepage ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.titlepage p {
+    text-align: center;
+    margin-top: 60px;
+}
+.titlepage button {
+    text-align: center;
+    width: 16%;
+}
+
+#question {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#answerChoices {
+    margin-top: 30px;
+    margin-left: 130px;
+    text-align: center;
+}
+#answerChoices p {
+    margin-top: 25px;
+    background-color: white;
+    opacity: .8;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 80%;
+    font-size: 24px;
+}
+#answerChoices p:hover {
+    opacity: 1;
+}

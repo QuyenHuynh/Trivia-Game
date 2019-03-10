@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Lato" rel="stylesheet">
+    <!--bootstrap import-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        type="text/css">
+    <!--custom css-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-contents">
+            <div id="question"></div>
+            <div id="timer"></div>
+            <div id="answerChoices"></div>
+            <div id="image"></div>
+            <div id="fact"></div>
+
+            <div class="titlepage">
+            <h1>Art Trivia Game</h1>
+            <hr>
+            <h4>Instructions</h4>
+            <ul>
+                <li>You have 30 seconds to answer each question.</li>
+                <li>After each question, you will be told whether you've answered correctly or incorrectly.</li>
+                <li>Your score will be tallied up and displayed at the end.</li>
+            </ul>
+            <p>Have fun and good luck!</p>
+            <center><button id="start">Let's begin!</button></center>
+            </div>
+        </div>
+    </div>
+
+
+    <!--JQuery import-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--custom javascript and JQuery code-->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
