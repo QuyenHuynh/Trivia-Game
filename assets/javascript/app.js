@@ -135,7 +135,7 @@ function startGame() {
             $("#image").append('<img src="' + chosenQuestion.image + '" height="200px">');
             $("#fact").html(chosenQuestion.fact);
             //setTimeout to display next question after 3 seconds
-            setTimeout(startGame, 1000);
+            setTimeout(startGame, 3000);
         }
         //if incorrect...
         if (userAnswer !== chosenQuestion.correctAnswer) {
@@ -150,7 +150,7 @@ function startGame() {
             $("#image").append('<img src="' + chosenQuestion.image + '" height="200px">');
             $("#fact").html(chosenQuestion.fact);
             //setTimeout to display next question after 3 seconds
-            setTimeout(startGame, 1000);
+            setTimeout(startGame, 3000);
         }
     });
     if (questionsPassed === questionArray.length) {
