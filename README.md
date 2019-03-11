@@ -1,9 +1,8 @@
 # TriviaGame
 
 ![Screenshot](screenshot.jpg)
-![Screenshot](screenshot2.jpg)
 
-This is an Art Trivia Game. Technologies used are HTML, CSS, JavaScript, and JQuery.
+This is an Art Trivia Game created with HTML, CSS, JavaScript, and JQuery.
 
 Instructions
 * There are a total of 10 questions.
