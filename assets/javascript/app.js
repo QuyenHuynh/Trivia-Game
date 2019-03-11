@@ -14,11 +14,11 @@ var questionArray = [
         fact: "While studying at the Academy of Ancient Art in the Medici Palace, Michelangelo not only developed his genius as a sculptor, but also excited the wrath of his rival, Torregiano, who struck him with a mallet, crushing the nose on his face and disfiguring him for life."
     },
     {
-        question: "Which artist was best known for a painting of his mother?",
-        answerChoices: ["Johannes Vermeer", "James Abott McNeil Whistler", "Pierre-August Renoir", "Francisco Goya"],
-        correctAnswer: "James Abbot McNeil Whistler",
-        image: "assets/images/arrangementgreyblack.jpg",
-        fact: "Whistler's most famous painting is Arrangement in Grey and Black No. 1 (1871), commonly known as Whistler's Mother. Anna McNeill Whistler posed for the painting while living in London with her son."
+        question: "How long did it take Leonardo da Vinci to paint the Mona Lisa's Lips?",
+        answerChoices: ["12 months", "12 years", "12 days", "12 weeks"],
+        correctAnswer: "12 years",
+        image: "assets/images/monalisa.jpg",
+        fact: "According to experts at the Louvre Museum in Paris, Leonardo da Vinci spent 12 years painting the Mona Lisa's lips."
     },
     {
         question: "What art movement was Yoko Ono associated with during the 1960s?",
